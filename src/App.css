@@ -22,6 +22,8 @@ body {
   display: flex;
   justify-content: center;
   margin: 0 auto 60px;
+  overflow-x: hidden;
+
 }
 #root {
   display: flex;
@@ -33,7 +35,7 @@ h2,
 h3,
 p {
   color: var(--text-color);
-  margin: 0;
+ margin: 0;
   padding: 0;
 }
 h2,

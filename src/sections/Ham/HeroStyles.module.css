@@ -60,7 +60,7 @@ button:active {
   cursor: pointer;
 }
 .desc {
-  max-width: 24ch;
+  max-width: 100%;
   align-self: center;
 }
 .info {
@@ -68,6 +68,18 @@ button:active {
   flex-direction: column;
   justify-content: center;
   gap: 10px;
+}
+@media (width >= 360px){
+  .desc {
+    width: 60%;
+    text-align: center;
+  }
+}
+@media (width >= 463px){
+  .desc {
+    width: 100%;
+    text-align: center;
+  }
 }
 @media (width >= 800px) {
   .container {
